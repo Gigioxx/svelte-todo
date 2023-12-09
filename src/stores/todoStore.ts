@@ -1,10 +1,5 @@
 import { writable, type Writable } from 'svelte/store';
-
-interface Todo {
-	text: string;
-	completed: boolean;
-	id: number;
-}
+import type { Todo } from '../interfaces/Todo.interfaces';
 
 export const todos: Writable<Todo[]> = writable([]);
 
