@@ -1,38 +1,29 @@
-# create-svelte
+# Todo App
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Description
 
-## Creating a project
+This is a simple todo app that allows you to add, and delete tasks. It also allows you to mark tasks as complete.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Tech Stack
 
+- Svelte
+- SvelteKit
+- TailwindCSS
+- Typescript
+
+## Installation
+
+1. Clone the repo
 ```bash
-# create a new project in the current directory
-bun create svelte@latest
-
-# create a new project in my-app
-bun create svelte@latest my-app
+git clone https://github.com/Gigioxx/svelte-todo.git
 ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `bun install` (or `pnpm install` or `yarn`), start a development server:
-
+2. Install dependencies
 ```bash
-bun run dev
-
-# or start the server and open the app in a new browser tab
-bun run dev -- --open
+bun i
 ```
 
-## Building
-
-To create a production version of your app:
-
+3. Run the app
 ```bash
-bun run build
+bun dev
 ```
-
-You can preview the production build with `bun run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
