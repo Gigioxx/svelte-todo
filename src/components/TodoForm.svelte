@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	let todo = '';
 
 	import { addTodo } from '../stores/todoStore';
