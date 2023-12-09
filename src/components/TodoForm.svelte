@@ -6,7 +6,6 @@
 	const handleSubmit = () => {
 		addTodo(todo);
 		todo = '';
-		console.log('submitting');
 	};
 </script>
 
